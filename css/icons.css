@@ -260,50 +260,82 @@ animation:lineRotate 1s ease-in-out;
 	margin-left:20px;
 }
 #icon_3:hover #top_circle{
-	animation:topCircleMove 0.5s ease-in-out; 
+	animation:topCircleMove 1s ease-in-out; 
 }
 @keyframes topCircleMove{
 	0%{
 		margin-top: 0px;
 		margin-left:0px;
 	}
+   15%{
+    margin-top:-2.5px;
+		margin-left:0px;
+  }
 	25%{
 	margin-top:-5px;
 	margin-left:0px;
-	}
+  }
+     35%{
+    margin-top:-7.5px;
+		margin-left:0px;
+  }
 	50%{
 			margin-top:-10px;
 		margin-left:0px;
 	}
+   65%{
+    margin-top:-7.5px;
+		margin-left:0px;
+  }
 	75%{
 	margin-top:-5px;
 	margin-left:0px;
 	}
+  85%{
+    margin-top:-2.5px;
+		margin-left:0px;
+  }
 100%{
 	margin-top: 0px;
 	margin-left: 0px;
 }
 }
 #icon_3:hover #left_circle{
-	animation:leftCircleMove 0.5s ease-in-out; 
+	animation:leftCircleMove 1s ease-in-out; 
 }
 @keyframes leftCircleMove{
 	0%{
 		margin-top: 30px;
 		margin-left:-20px;
 	}
+  65%{
+    margin-top:32.5px;
+		margin-left:-22.5px;
+  }
 	25%{
 	margin-top:35px;
 	margin-left:-25px;
 	}
+  35%{
+    margin-top:37.5px;
+		margin-left:-27.5px;
+  }
 	50%{
 	margin-top: 40px;
 	margin-left:-30px;
 	}
+  65%{
+    margin-top:37.5px;
+		margin-left:-27.5px;
+  }
 	75%{
 	margin-top:35px;
 	margin-left:-25px;
 	}
+  85%{
+    margin-top:32.5px;
+		margin-left:-22.5px;
+  }
 	
 100%{
 	margin-top:30px;
@@ -311,25 +343,41 @@ animation:lineRotate 1s ease-in-out;
 }
 }
 #icon_3:hover #right_circle{
-	animation:rightCircleMove 0.5s ease-in-out;
+	animation:rightCircleMove 1s ease-in-out;
 }
 @keyframes rightCircleMove{
 	0%{
 	margin-top: 30px;
 	margin-left:20px;
 	}
+  15%{
+    margin-top:32.5px;
+		margin-left:22.5px;
+  }
 	25%{
 		margin-top:35px;
 		margin-left:25px;
 	}
+  35%{
+    margin-top:37.5px;
+		margin-left:27.5px;
+  }
 	50%{
 	margin-top: 40px;
 	margin-left:30px;
 	}
+  65%{
+    margin-top:37.5px;
+		margin-left:27.5px;
+  }
 	75%{
 	margin-top:35px;
 		margin-left:25px;
 	}
+  85%{
+    margin-top:32.5px;
+		margin-left:22.5px;
+  }
 	100%{
 	margin-top: 30px;
 	margin-left:20px;
